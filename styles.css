@@ -1,0 +1,115 @@
+.container{
+    width:70%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navmenu li {
+    letter-spacing: -1px;
+    display: inline;
+    font-size: 30px;
+    padding:10px;
+    
+}
+a:hover{
+    color: steelblue;
+} 
+a{
+    font-family:fantasy;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+.pic{
+    width: 100%;
+}
+.vid{
+    width: 60%;
+    float: left;
+    
+}
+.login{
+    margin: auto;
+    width: 40%;
+    float: right;
+    height: 200px;
+    width: 350px;
+}
+label{
+    font-style: bold;
+    text-transform: uppercase;
+}
+#username,#password{
+    width: 70%;
+    height:30px;
+    margin-top: 10px;
+}
+#enter{
+    background-color: #cc92ff;
+    width: 50%;
+    height: 20%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.dummytxt{
+    margin: 5%;
+    text-indent: 50px;
+    
+}
+.foot{
+    background-color: gainsboro;
+    text-align: center;
+}
+.content{
+    display: inline-block;
+
+}
+.container{
+    animation-name: eyuel;
+    animation-duration:2.5s;
+}
+/* Standard syntax */
+@keyframes eyuel {
+    from {background-color: black; padding:10%;}
+    to {background-color: white;padding:0%;}
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -30px
+}
+.mission, .vision{
+    background-color: ghostwhite;
+    width: 50%;
+}
+.mission:hover, .vision:hover{
+    box-shadow: 0 4px 8px 0;
+}
+.form{
+    width: 70%;
+    margin: auto;
+    
+}
+.subject{
+    float: right;
+}
+.email,.subject{
+    width: 48%;
+    height: 30px;
+}
+.txtarea{
+    margin-top:10px;
+    width: 100%;
+}
+.txtarea:hover, .email:hover, .subject:hover{
+    box-shadow:0 0 8px 2px #33bbff
+        
+}
+.btn{
+    width: 40%;
+    height: 35px;
+    margin-top:10px;
+    font-size: larger;
+    background-color: ghostwhite;
+    border:1px bold black;
+}

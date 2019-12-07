@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>my portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body class="container">
+        <header>
+            <div>
+                <ul class="navmenu">
+                    <li><a href="index.html" padding: 5px">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div >
+                <img src="images/8.jpg" class="pic">
+            </div>
+        </header>
+
+
+        <div class="content" >
+            <video  class="vid">
+                <source src="images/TUX.MP4" type="video/mp4">
+                "ross plaskow's video"
+            </video>
+
+            <form action="submit" method="post" class="login">
+                <label>username</label><br>
+                <input type="text" id="username" required=""><br>
+                <label>password</label><br>
+                <input type="password" id="password" required=""><br>
+                <input type="submit" id="enter" value="login">
+            </form>
+        </div>
+        <div class="dummytxt">
+            <p>
+                The setContentView method accepts a single View instance; as a result, you use layouts to add
+                multiple controls to your Activity.
+                If you’re using Fragments to encapsulate portions of your Activity’s UI, the View inflated within
+                your Activity’s onCreate handler will be a layout that describes the relative position of each of your
+                Fragments (or their containers). The UI used for each Fragment is defined in its own layout and
+                inflated within the Fragment itself, as described later in this chapter.
+                Note that once a Fragment has been inflated into an Activity, the Views it contains become part of
+                that Activity’s View hierarchy. As a result you can find any of its child Views from within the parent
+                Activity, using findViewById as described previously.
+            </p>
+        </div>
+        <footer class="foot">
+            <p>
+                all right reserved &copy 2018.
+            </p>
+        </footer>
+    </body>
+</html>
